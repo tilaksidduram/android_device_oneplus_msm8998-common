@@ -78,6 +78,8 @@
 
 /sys/project_info(/.*)?                                         u:object_r:sysfs_data:s0
 
+/sys/kernel/pocket_judge/inpocket                               u:object_r:sysfs_inpocket:s0
+
 /firmware(/.*)?                                                 u:object_r:firmware_file:s0
 /bt_firmware(/.*)?                                              u:object_r:bt_firmware_file:s0
 
