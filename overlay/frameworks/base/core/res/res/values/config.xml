@@ -655,6 +655,9 @@
     <integer name="config_proximityCheckTimeout">100</integer>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 
+     <!-- Whether the device has outdated qti-telephony-common.jar -->
+     <bool name="config_oldQtiTelephony">false</bool>
+
     <!-- Enable ACS (auto channel selection) for Wifi hotspot (SAP) -->
     <bool translatable="false" name="config_wifi_softap_acs_supported">true</bool>
 
