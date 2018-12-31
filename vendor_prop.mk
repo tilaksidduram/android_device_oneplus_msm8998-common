@@ -162,6 +162,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.iop.enable_uxe=0 \
     vendor.iop.enable_prefetch_ofr=0
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.havoc.maintainer=TilakSid
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.enable-player=true \
