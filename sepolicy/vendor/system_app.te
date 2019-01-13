@@ -5,3 +5,6 @@ allow system_app sysfs_fpc_key:file { rw_file_perms };
 allow system_app sysfs_fpc_screen:file { rw_file_perms };
 allow system_app sysfs_fpc_proximity:file { rw_file_perms };
 allow system_app sysfs:file write;
+
+allow system_app spectrum_prop:property_service set;
+get_prop(system_app, spectrum_prop);
