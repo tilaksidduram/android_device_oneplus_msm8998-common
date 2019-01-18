@@ -94,6 +94,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.ts.rtmakeup=false \
     camera.disable_zsl_mode=true \
     persist.sys.camera.preview.size=1920x1080
+    camera.hal1.packagelist=com.whatsapp
 
 # CNE
 PRODUCT_PROPERTY_OVERRIDES += \
