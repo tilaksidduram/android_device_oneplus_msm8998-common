@@ -8,3 +8,5 @@ allow system_app sysfs:file write;
 
 allow system_app spectrum_prop:property_service set;
 get_prop(system_app, spectrum_prop);
+
+allow system_app sysfs_dm:file rw_file_perms;
