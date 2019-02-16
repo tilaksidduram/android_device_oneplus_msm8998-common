@@ -95,6 +95,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     camera.disable_zsl_mode=true \
     persist.sys.camera.preview.size=1920x1080
     camera.hal1.packagelist=com.whatsapp
+    camera.hal1.packagelist=com.jio.join
 
 # CNE
 PRODUCT_PROPERTY_OVERRIDES += \
