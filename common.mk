@@ -168,7 +168,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
-    libstdc++.vendor \
     GoogleCamera \
     Snap2
 
@@ -484,12 +483,11 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-service
 
 # VNDK
+# Update this list with what each blob is actually for
+# libstdc++: camera.msm8998
 PRODUCT_PACKAGES += \
+    libstdc++.vendor \
     vndk_package
-
-# VNDK-SP
-PRODUCT_PACKAGES += \
-    vndk-sp
 
 # VR
 PRODUCT_PACKAGES += \
