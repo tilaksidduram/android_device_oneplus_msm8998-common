@@ -665,6 +665,9 @@
      <!-- Whether the device has outdated qti-telephony-common.jar -->
      <bool name="config_oldQtiTelephony">false</bool>
 
+    <!-- Enable all rotations -->
+    <bool name="config_allowAllRotations">true</bool>
+
     <!-- Enable overlay for all location components. -->
     <bool name="config_enableNetworkLocationOverlay" translatable="false">false</bool>
     <bool name="config_enableFusedLocationOverlay" translatable="false">false</bool>
