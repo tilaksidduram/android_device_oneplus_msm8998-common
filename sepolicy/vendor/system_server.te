@@ -27,3 +27,6 @@ allow system_server sysfs_vibrator:file { r_file_perms };
 
 r_dir_file(system_server, sysfs_usb_supply);
 r_dir_file(system_server, sysfs_battery_supply);
+
+# Smart Charging
+allow system_server sysfs_batteryinfo:file { getattr open write };
