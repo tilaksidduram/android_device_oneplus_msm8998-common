@@ -84,5 +84,8 @@
 # Touch
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch@1\.0-service\.oneplus_msm8998 u:object_r:hal_touch_oneplus_msm8998_exec:s0
 
+# Usb
+/(vendor|system/vendor)/bin/hw/android\.hardware\.usb@1\.0-service\.oneplus5       u:object_r:hal_usb_default_exec:s0
+
 # Wifi
 /(vendor|system/vendor)/bin/wifi-mac-generator                  u:object_r:wifi_mac_generator_exec:s0
