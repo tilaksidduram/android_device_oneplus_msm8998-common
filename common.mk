@@ -441,6 +441,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.oneplus_msm8998
 
+# Tri-state keys
+PRODUCT_PACKAGES += \
+    KeyHandler
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
