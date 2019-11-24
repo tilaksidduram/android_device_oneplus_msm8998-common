@@ -27,9 +27,9 @@ public class KeyHandler implements DeviceKeyHandler {
     private static final String TAG = KeyHandler.class.getSimpleName();
 
     // Slider key codes
-    private static final int MODE_NORMAL = 601;
+    private static final int MODE_NORMAL = 603;
     private static final int MODE_VIBRATION = 602;
-    private static final int MODE_SILENCE = 603;
+    private static final int MODE_SILENCE = 601;
 
     private final Context mContext;
     private final AudioManager mAudioManager;
